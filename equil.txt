@@ -1,4 +1,5 @@
 # Equilibrium Rates
+#
 lequil = function(p1, p2, L, m, M, t, R)
 {
   K1=(M*(1-t) - L*(R-p1))^2 + 4*(M*(1+t)+L*(R-p2))*L*(p1-p2)
